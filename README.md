@@ -33,8 +33,9 @@ Run the following command to start the HTTP server :
     adonis serve --dev
 
 Runs the React app in development mode :
-cd front
-npm start
+
+    cd front
+    npm start
 
 Then you can access to the React App using :
 
