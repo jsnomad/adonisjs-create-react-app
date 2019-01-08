@@ -2,6 +2,7 @@
   "name": "2",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3333",
   "homepage": "./react",
   "dependencies": {
     "react": "^16.7.0",
