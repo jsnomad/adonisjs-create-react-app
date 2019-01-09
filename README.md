@@ -1,7 +1,7 @@
 # adonisjs-create-react-app
 
 <p align="center"> 
-<img src="https://lh3.googleusercontent.com/W4ogVEXwEWqG_GoSx4ngBT00HiL1g41aUWJQ2ptLAsOeQsbC-yiNiZtVAHOOb0n0yAg3xGqH9JR2CaM3AXz4=w3360-h1804">
+<img src="https://res.cloudinary.com/jsnomad/image/upload/v1547050409/adonisjs-react.png">
 </p>
 
 Boilerplate/Starter Project for building APIs using [Adonisjs](https://github.com/adonisjs/adonis-framework), with a React frontend using [Create React App](https://github.com/facebook/create-react-app).
@@ -53,7 +53,7 @@ Create a React production build :
 
     npm run build
 
-The build folder will be automatically move the Adonisjs public folder.
+The build folder will be automatically moved in the Adonisjs public folder.
 
 Then start the HTTP server using a process manager like pm2 (recommended) :
 
