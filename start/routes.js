@@ -19,13 +19,7 @@ const Route = use('Route');
 const Helpers = use('Helpers');
 
 Route.group(() => {
-  Route.get('/', () => {
-    return [
-      { id: '1', url: 'asdf', title: 'tdsfdf' },
-      { id: '2', url: 'asdf', title: 'tdsfdf' },
-      { id: '3', url: 'asdf', title: 'tdsfdf' }
-    ];
-  });
+  Route.get('/', 'ApiController.getCities');
 }).prefix('api/v1');
 
 Route.any('*', ({ response }) => {
