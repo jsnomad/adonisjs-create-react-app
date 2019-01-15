@@ -51,6 +51,7 @@ In development, the React development server will recognize that it’s not a st
 
 Create a React production build :
 
+    cd front
     npm run build
 
 The build folder will be automatically moved in the Adonisjs public folder.
